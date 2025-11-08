@@ -2,8 +2,13 @@
 
 import { useRef } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import { motion, useScroll, useTransform, MotionValue } from 'framer-motion';
+
+interface Link {
+    url: string;
+    icon: string;
+    alt: string;
+}
 
 interface CardProps {
     i: number;
@@ -15,6 +20,7 @@ interface CardProps {
     progress: MotionValue<number>;
     range: [number, number];
     targetScale: number;
+    links?: Link[];
 }
 
 const Card: React.FC<CardProps> = ({
@@ -26,6 +32,7 @@ const Card: React.FC<CardProps> = ({
     progress,
     range,
     targetScale,
+    links,
 }) => {
     const containerRef = useRef<HTMLDivElement>(null);
 
@@ -64,13 +71,29 @@ const Card: React.FC<CardProps> = ({
                     </div>
                     <div className="md:w-1/3 mt-10 md:mt-0 flex flex-col items-center justify-evenly text-center md:pl-5">
                         <p className="text-sm md:text-lg font-extralight">{subtitle}</p>
-                        <Link
-                            href="/"
-                            className="mt-10 text-base font-semibold underline hover:opacity-80 transition-opacity"
-                        >
-                            Show me more
-                        </Link>
+                        {links && links.length > 0 && (
+                            <div className="mt-10 flex gap-4 justify-center">
+                                {links.map((link, index) => (
+                                    <a
+                                        key={index}
+                                        href={link.url}
+                                        className="text-base font-semibold hover:opacity-80 transition-opacity"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <Image
+                                            src={link.icon}
+                                            alt={link.alt}
+                                            width={32}
+                                            height={32}
+                                            className="w-8 h-8 hover:opacity-80 transition-opacity"
+                                        />
+                                    </a>
+                                ))}
+                            </div>
+                        )}
                     </div>
+                    
                 </div>
             </motion.div>
         </div>

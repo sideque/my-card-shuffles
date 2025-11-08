@@ -25,5 +25,17 @@
 		"eslint-config-next": "15.3.4",
 		"tailwindcss": "^4",
 		"typescript": "^5"
-	}
+	},
+	"description": "<div align=\"center\">\r   <a href=\"https://atzinescandia.dev\" target=\"_blank\" rel=\"noopener noreferrer\">\r     <img src=\"https://cdn.jsdelivr.net/gh/atzin-escandia/video-assets/banner.png\" alt=\"Atzin Cards Shuffle Banner\" />\r   </a>",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sideque"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sideque"
+	},
+	"homepage": "https://github.com/sideque"
 }

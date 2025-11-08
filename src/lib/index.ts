@@ -1,58 +1,107 @@
 export const CARDS_DATA = [
 	{
 		id: "pearl-elegance",
-		title: "Pearl Elegance",
+		title: "Embracing Failure",
 		subtitle:
-			"An ode to timeless grace — delicate pearl tones and soft ivory finishes that whisper sophistication.",
-		image: "https://i.pinimg.com/736x/64/5b/63/645b630a40da79c82c6460e2e4004c59.jpg",
+			"Every setback is a lesson; every fall is a step forward. Falling seven times, I’m standing up eight.",
+		image: "/img1.jpeg",
 		color: "#f3f4f6",
+		links: [
+      {
+        url: "https://www.linkedin.com/posts/sidhiee_motivation-growth-failureissuccess-activity-7392847611130699776-mNuu?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFMmW6UBtPzWgTLEwdJtsGULOOfQqp3xbO4",
+        icon: "/linkedIn.jpg",
+        alt: "LinkedIn",
+      },
+	]
 	},
 	{
 		id: "golden-glow",
-		title: "Golden Glow",
+		title: "My Ikigai in Code",
 		subtitle:
-			"A luminous collection of golden pieces that radiate warmth, luxury, and understated glamour.",
-		image: "https://i.pinimg.com/736x/14/5a/5d/145a5de3b3446fcde325cf8852f077ee.jpg",
+			"How Passion, Skill, Purpose, and Value Turn Work into Meaning.",
+		image: "/img2.jpeg",
 		color: "#fde68a",
+		links: [
+			{
+				url: "https://www.linkedin.com/posts/sidhiee_ikigai-fullstackdeveloper-purpose-activity-7382786040291561472-zTXr?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFMmW6UBtPzWgTLEwdJtsGULOOfQqp3xbO4",
+				icon: "/linkedIn.jpg",
+				alt: "LinkedIn",
+			},
+		],
 	},
 	{
 		id: "green-whisper",
-		title: "Green Whisper",
+		title: "Passion Over Time",
 		subtitle:
-			"Inspired by nature’s calm, these olive and jade-toned jewels evoke harmony, serenity, and balance.",
-		image: "https://i.pinimg.com/736x/bf/75/61/bf7561a5a4f9849980d23136573995ff.jpg",
-		color: "#d1fae5",
+			"Some days aren’t about deadlines or checklists — just quiet hours of learning, building, and falling in love with the process again.",
+		image: "/img3.jpeg",
+		color: "#fef3c7",
+		links: [
+			{
+				url: "https://www.linkedin.com/posts/sidhiee_reactjs-learninginpublic-weekendgrind-activity-7380532764413988864-qSqY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFMmW6UBtPzWgTLEwdJtsGULOOfQqp3xbO4",
+				icon: "/linkedIn.jpg",
+				alt: "LinkedIn",
+			},
+		],
 	},
 	{
 		id: "nude-dream",
-		title: "Nude Dream",
+		title: "My 🐋 Beginnings",
 		subtitle:
-			"Soft beige, blush, and champagne shades for minimalist lovers who seek quiet luxury in every detail.",
-		image: "https://i.pinimg.com/736x/cb/9c/6f/cb9c6f7c6450d14551c2fd3bb8b706d1.jpg",
-		color: "#fef3c7",
+			"Every expert starts somewhere this is my SQL journey in its raw form, full of effort, curiosity, and the courage to begin before I’m ready.",
+		image: "/img4.jpg",
+		color: "#d1fae5",
+		links: [
+			{
+				url: "https://www.linkedin.com/posts/sidhiee_sql-structured-query-language-notion-activity-7359970038730092545-jjHh?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFMmW6UBtPzWgTLEwdJtsGULOOfQqp3xbO4",
+				icon: "/linkedIn.jpg",
+				alt: "LinkedIn",
+			},
+		],
 	},
 	{
 		id: "sunset-touch",
-		title: "Sunset Touch",
+		title: "50 Days Strong",
 		subtitle:
-			"Jewels kissed by the fading sun — soft orange and amber notes that glow with golden undertones.",
-		image: "https://i.pinimg.com/736x/29/90/f1/2990f1f2863c721c701f9bfc59a5a183.jpg",
-		color: "#fcd5ce",
+			"Consistency beats motivation — one problem, one day, one step at a time. This LeetCode streak isn’t just progress; it’s proof of persistence.",
+		image: "/img5.jpeg",
+		color: "#8DC567",
+		links: [
+			{
+				url: "https://www.linkedin.com/posts/sidhiee_leetcode-dsa-brocamp-activity-7355600563729797121-nUiA?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFMmW6UBtPzWgTLEwdJtsGULOOfQqp3xbO4",
+				icon: "/linkedIn.jpg",
+				alt: "LinkedIn",
+			},
+		],
 	},
 	{
 		id: "sand-lines",
-		title: "Sand Lines",
+		title: "🛡️ Battle Won",
 		subtitle:
-			"Earthy textures and refined craftsmanship inspired by desert hues and flowing landscapes.",
-		image: "https://i.pinimg.com/736x/4f/c1/32/4fc132974baef64b248fd3e59bc64046.jpg",
+			"My Brocamp journey reminded me that growth isn’t linear — it’s built through setbacks, resilience, and the courage to rise again.",
+		image: "/img6.jpg",
 		color: "#f5f5dc",
+		links: [
+			{
+				url: "https://www.linkedin.com/posts/sidhiee_brocamp-dsa-growthjourney-activity-7353380547127046145-MPQc?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFMmW6UBtPzWgTLEwdJtsGULOOfQqp3xbO4",
+				icon: "/linkedIn.jpg",
+				alt: "LinkedIn",
+			},
+		],
 	},
 	{
 		id: "cherry-glow",
-		title: "Cherry Glow",
+		title: "🔁 Progress Isn’t Linear",
 		subtitle:
-			"A vibrant fusion of cherry red and soft coral, capturing bold femininity with playful elegance.",
-		image: "https://i.pinimg.com/736x/6d/32/ca/6d32cabef83b6ee43ac84ee61a5390af.jpg",
-		color: "#fbcfe8",
+			"From building e-commerce projects to diving into DSA, I’ve learned that doubt, failure, and repetition aren’t roadblocks — they’re milestones. Real growth happens in the loops.",
+		image: "/img7.jpeg",
+		color: "#7A837A",
+		links: [
+			{
+				url: "https://www.linkedin.com/posts/sidhiee_brocamp-brototype-brototypebck228-activity-7334968496780447745-uzSG?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFMmW6UBtPzWgTLEwdJtsGULOOfQqp3xbO4",
+				icon: "/linkedIn.jpg",
+				alt: "LinkedIn",
+			},
+		],
 	},
 ];

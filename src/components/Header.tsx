@@ -12,7 +12,7 @@ export default function Header() {
                 className="text-white hover:scale-110 transition-all duration-300 text-3xl"
             >
                 <Image
-                    src="https://cdn.jsdelivr.net/gh/atzin-escandia/video-assets/logo-atzin-white.svg"
+                    src="/log.png"
                     alt="Logo"
                     width={120}
                     height={40}
@@ -20,7 +20,7 @@ export default function Header() {
                 />
             </a>
             <a
-                href="https://github.com/atzin-escandia/atzin-cards-shuffle"
+                href="https://github.com/sideque"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:scale-110 transition-all duration-300 text-2xl"
