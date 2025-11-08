@@ -12,10 +12,10 @@ const serif = Instrument_Serif({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Atzin Escandia ✷ Software Developer',
-    template: '%s ✷ Atzin Escandia',
+    default: 'Sidhique ✷ Software Developer',
+    template: '%s ✷ Sidhique',
   },
-  description: 'Atzin Escandia ✷ Creative Software developer & content creator ✷ I build functional and animated websites for other creative humans!',
+  description: 'Sidhique ✷ Creative Software developer & content creator ✷ I build functional and animated websites for other creative humans!',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

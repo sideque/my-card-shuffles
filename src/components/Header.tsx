@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <header className="flex items-center justify-between p-10 fixed top-0 w-full">
             <a
-                href="https://www.atzinescandia.dev/"
+                href="https://github.com/sideque"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:scale-110 transition-all duration-300 text-3xl"
